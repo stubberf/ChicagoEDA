@@ -1,4 +1,8 @@
 Background.docx
 Investigating the Impact of Long-term Homeownership on a Community.docx
 api_keys.txt
+.env
+.python-version
+
 .ipynb_checkpoints/
+__pycache__/

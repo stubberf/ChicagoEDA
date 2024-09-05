@@ -1,0 +1,68 @@
+COLUMN_CODES = {
+    'acs/acs5/profile': {
+        'Total households estimate':'DP02_0001E',
+        'Total households MOE':'DP02_0001M'
+    },
+
+    'acs/acs5':  {
+        'Estimate!!Total:Pop':'B01001_001E',
+        'Estimate!!Total:Pop:MOE':'B01001_001E',
+        'Estimate!!Total:':'B25003_001E',
+        'Estimate!!Total:MOE':'B25003_001M',
+        'Estimate!!Total:!!Owner occupied:':'B25003_002E',
+        'Estimate!!Total:!!Owner occupied:MOE':'B25003_002M',
+        'Estimate!!Total:!!Renter occupied:':'B25003_003E',
+        'Estimate!!Total:!!Renter occupied:MOE':'B25003_003M',
+        'Estimate!!Total:':'B25032_001E',
+        'Estimate!!Total:MOE':'B25032_001M',
+        'Estimate!!Total:!!Owner-occupied housing units:':'B25032_002E',
+        'Estimate!!Total:!!Owner-occupied housing units:MOE':'B25032_002M',
+        'Estimate!!Total:!!Owner-occupied housing units:!!1, detached:':'B25032_003E',
+        'Estimate!!Total:!!Owner-occupied housing units:!!1, detached:MOE':'B25032_003M',
+        'Estimate!!Total:!!Owner-occupied housing units:!!1, attached, detached':'B25032_004E',
+        'Estimate!!Total:!!Owner-occupied housing units:!!1, attached:MOE':'B25032_004M',
+        'Estimate!!Total:!!Owner-occupied housing units:!!2, detached':'B25032_005E',
+        'Estimate!!Total:!!Owner-occupied housing units:!!2:MOE':'B25032_005M',
+        'Estimate!!Total:!!Owner-occupied housing units:!!3 or 4:':'B25032_006E',
+        'Estimate!!Total:!!Owner-occupied housing units:!!3 or 4:MOE':'B25032_006M',
+        'Estimate!!Total:!!Owner-occupied housing units:!!5 to 9:':'B25032_007E',
+        'Estimate!!Total:!!Owner-occupied housing units:!!5 to 9:MOE':'B25032_007M',
+        'Estimate!!Total:!!Owner-occupied housing units:!!10 to 19:':'B25032_008E',
+        'Estimate!!Total:!!Owner-occupied housing units:!!10 to 19:MOE':'B25032_008M',
+        'Estimate!!Total:!!Owner-occupied housing units:!!20 to 49:':'B25032_009E',
+        'Estimate!!Total:!!Owner-occupied housing units:!!20 to 49:MOE':'B25032_009M',
+        'Estimate!!Total:!!Owner-occupied housing units:!!50 or more:':'B25032_010E',
+        'Estimate!!Total:!!Owner-occupied housing units:!!50 or more:MOE':'B25032_010M',
+        'Estimate!!Total:!!Owner-occupied housing units:!!Mobile home:':'B25032_011E',
+        'Estimate!!Total:!!Owner-occupied housing units:!!Mobile home:MOE':'B25032_011M',
+        'Estimate!!Total:!!Owner-occupied housing units:!!Boat, RV, van, etc.:':'B25032_012E',
+        'Estimate!!Total:!!Owner-occupied housing units:!!Boat, RV, van, etc.:MOE':'B25032_012M',
+        'Estimate!!Total:!!Renter-occupied housing units:':'B25032_013E',
+        'Estimate!!Total:!!Renter-occupied housing units:MOE':'B25032_013M',
+        'Estimate!!Total:!!Renter-occupied housing units:!!1, detached':'B25032_014E',
+        'Estimate!!Total:!!Renter-occupied housing units:!!1, detached:MOE':'B25032_014M',
+        'Estimate!!Total:!!Renter-occupied housing units:!!1, attached':'B25032_015E',
+        'Estimate!!Total:!!Renter-occupied housing units:!!1, attached:MOE':'B25032_015M',
+        'Estimate!!Total:!!Renter-occupied housing units:!!2':'B25032_016E',
+        'Estimate!!Total:!!Renter-occupied housing units:!!2:MOE':'B25032_016M',
+        'Estimate!!Total:!!Renter-occupied housing units:!!3 or 4':'B25032_017E',
+        'Estimate!!Total:!!Renter-occupied housing units:!!3 or 4:MOE':'B25032_017M',
+        'Estimate!!Total:!!Renter-occupied housing units:!!5 to 9':'B25032_018E',
+        'Estimate!!Total:!!Renter-occupied housing units:!!5 to 9:MOE':'B25032_018M',
+        'Estimate!!Total:!!Renter-occupied housing units:!!10 to 19':'B25032_019E',
+        'Estimate!!Total:!!Renter-occupied housing units:!!10 to 19:MOE':'B25032_019M',
+        'Estimate!!Total:!!Renter-occupied housing units:!!20 to 49':'B25032_020E',
+        'Estimate!!Total:!!Renter-occupied housing units:!!20 to 49:MOE':'B25032_020M',
+        'Estimate!!Total:!!Renter-occupied housing units:!!50 or more':'B25032_021E',
+        'Estimate!!Total:!!Renter-occupied housing units:!!50 or more:MOE':'B25032_021M',
+        'Estimate!!Total:!!Renter-occupied housing units:!!Mobile home':'B25032_022E',
+        'Estimate!!Total:!!Renter-occupied housing units:!!Mobile home:MOE':'B25032_022M',
+        'Estimate!!Total:!!Renter-occupied housing units:!!Boat, RV, van, etc.:':'B25032_023E',
+        'Estimate!!Total:!!Renter-occupied housing units:!!Boat, RV, van, etc.:MOE':'B25032_023M',
+    }
+}
+
+# ACS_PROFILE_DATA = 
+
+
+# ACS_DETAIL_DATA =
