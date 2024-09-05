@@ -63,4 +63,14 @@ class Census:
             # Combine all of the data into one Pandas Table
             results[dataset] = pd.concat(yearly_dataframes, axis=0)
 
+            # Rename Columns
+            codes_to_cols = {value:key for key,value in COLUMN_CODES[dataset].items()}
+            results[dataset].rename(columns=codes_to_cols, inplace=True)
+
+            # Clean these dame column names
+            gross = "Estimate!!Total:!!"
+            still_gross = "Estimate!!Total:"
+            cleaned_names = {col:col.replace(gross,"").replace(still_gross,"") for col in results[dataset].columns}
+            results[dataset].rename(columns=cleaned_names, inplace=True)
+
         return results
