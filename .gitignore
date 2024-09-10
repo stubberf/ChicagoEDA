@@ -1,8 +1,14 @@
+# Resources
 Background.docx
 Investigating the Impact of Long-term Homeownership on a Community.docx
+
+# Files
 api_keys.txt
 .env
 .python-version
+.DS_Store
+sratchpad.ipynb
 
+# Folders
 .ipynb_checkpoints/
 __pycache__/

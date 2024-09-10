@@ -11,11 +11,18 @@ pandas = "^2.2.2"
 python-dotenv = "^1.0.1"
 requests = "^2.32.3"
 tqdm = "^4.66.5"
+watchdog = "4.0.2"
+geopandas = "^1.0.1"
 
 
 [tool.poetry.group.dev.dependencies]
 jupyterlab = "^4.2.5"
 ipykernel = "^6.29.5"
+
+
+[tool.poetry.group.app.dependencies]
+streamlit = ">=1.38.0,<2.0.0"
+plotly = "^5.24.0"
 
 [build-system]
 requires = ["poetry-core"]

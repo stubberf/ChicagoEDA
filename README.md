@@ -25,3 +25,21 @@ tktkt yada yada
     ```
 
 1. Sign up for the Census Api [TODO: add url] and copy your API key into a `.env` file structured like `.env.default`.
+
+
+### Run
+
+1. Run the app with:
+    ```bash
+    poetry run streamlit streamlit run app.py
+    ```
+
+
+### Data Sources
+
+1. [Boundaries - ZIP Codes](https://data.cityofchicago.org/Facilities-Geographic-Boundaries/Boundaries-ZIP-Codes/gdcf-axmw), Chicago Data Portal
+
+
+### Helpful References
+
+1. [Creating Interactive Choropleths with Streamlit](https://arilamstein.com/blog/2024/03/03/creating-interactive-choropleths-with-streamlit/)
